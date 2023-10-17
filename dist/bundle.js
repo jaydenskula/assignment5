@@ -16,7 +16,7 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _script2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script2.js */ \"./script2.js\");\n/* harmony import */ var _script3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./script3.js */ \"./script3.js\");\n// import { hello as helloStr, year, printTheYear } from \"./script2.js\";\n\n\n\nconsole.log(_script2_js__WEBPACK_IMPORTED_MODULE_0__.hello);\nconsole.log(_script2_js__WEBPACK_IMPORTED_MODULE_0__.year);\n_script2_js__WEBPACK_IMPORTED_MODULE_0__.printTheYear();\n\n(0,_script3_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n\n\n//# sourceURL=webpack://09-28/./script1.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _script2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script2.js */ \"./script2.js\");\n/* harmony import */ var _script3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./script3.js */ \"./script3.js\");\n\n\n\nconsole.log(_script2_js__WEBPACK_IMPORTED_MODULE_0__.hello);\n\n(0,_script3_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n\n\n//# sourceURL=webpack://09-28/./script1.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scr
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   hello: () => (/* binding */ helloString),\n/* harmony export */   printTheYear: () => (/* binding */ printTheYear),\n/* harmony export */   year: () => (/* binding */ year)\n/* harmony export */ });\nconst helloString = 'hello world!';\nconst year = 2023;\nfunction printTheYear() {\n  document.querySelector('p').innerText += year;\n}\n\n\n\n\n//# sourceURL=webpack://09-28/./script2.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   hello: () => (/* binding */ helloString)\n/* harmony export */ });\nconst helloString = 'Hello, my name is Jayden!';\n\n\n\n\n//# sourceURL=webpack://09-28/./script2.js?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ printTheMonth)\n/* harmony export */ });\nfunction printTheMonth() {\n  document.querySelector('p').innerText += 'September';\n}\n\n\n//# sourceURL=webpack://09-28/./script3.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ printMyMajor)\n/* harmony export */ });\nfunction printMyMajor() {\n  document.querySelector('p').innerText += 'Creative Technology & Design';\n}\n\n\n//# sourceURL=webpack://09-28/./script3.js?");
 
 /***/ })
 
